@@ -43,5 +43,5 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 const back=document.querySelector(".back button");
     back.addEventListener("click",()=>{
-        window.open("http://127.0.0.1:3000/m2.html");
+        window.location.href = "../src/m2.html";
     })

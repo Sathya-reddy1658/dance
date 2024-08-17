@@ -2,7 +2,7 @@
     border: 0px;
 }
 body{
-    background-image: url(ab-img.jpg);
+    background-image: url(../images/ab-img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

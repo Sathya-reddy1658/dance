@@ -1,6 +1,6 @@
 const about=document.querySelector(".about");
 about.addEventListener("click",()=>{
-    window.open("http://127.0.0.1:3000/about-info.html");
+     window.location.href ='../src/about-info.html'
 })
 document.getElementById('search').addEventListener('click', function() {
     var selectedPage = document.getElementById('dance').value;
@@ -10,5 +10,5 @@ document.getElementById('search').addEventListener('click', function() {
 });
 const box=document.querySelector(".box");
 box.addEventListener("click",()=>{
-    window.open("http://127.0.0.1:3000/main.html");
+     window.location.href ='../src/main.html'
 })
