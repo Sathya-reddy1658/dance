@@ -1,6 +1,6 @@
 const about=document.querySelector(".about");
 about.addEventListener("click",()=>{
-     window.location.href ='../src/about-info.html'
+     window.location.href ='about-info.html'
 })
 document.getElementById('search').addEventListener('click', function() {
     var selectedPage = document.getElementById('dance').value;
@@ -10,5 +10,5 @@ document.getElementById('search').addEventListener('click', function() {
 });
 const box=document.querySelector(".box");
 box.addEventListener("click",()=>{
-     window.location.href ='../src/main.html'
+     window.location.href ='main.html'
 })

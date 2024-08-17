@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 for (let i = 1; i <= total; i++) {
                     const div = document.createElement('div');
                     div.className = 'background';
-                    div.style.backgroundImage = `url('./assets/images/a${i}.jpg')`;
+                    div.style.backgroundImage = `url('a${i}.jpg')`;
                     container.appendChild(div);
                     console.log(i);
                 }
@@ -43,5 +43,5 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 const back=document.querySelector(".back button");
     back.addEventListener("click",()=>{
-        window.location.href = "../src/m2.html";
+        window.location.href = "index.html";
     })
